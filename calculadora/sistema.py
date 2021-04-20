@@ -2,8 +2,10 @@ from ast import Num
 from os import system
 from time import sleep
 import numeros
+import polinomios
 
 classeDosNumeros = numeros.Numeros()
+classeDosPolinomios = polinomios.Polinomios()
 class Sistema(object):
 
     def executar(self):
@@ -51,7 +53,9 @@ class Sistema(object):
         elif opcao == 2:
             Sistema.clearScreen(self)
             print("Você escolheu trabalhar com polinômios!\n")
-            # Chamar a classe polinomios
+            while (opcao == 2):
+                classeDosPolinomios.executarPolinomios()
+            
 
         elif opcao == 3:
             print("Essa função ainda não foi incrementada no programa. Aguarde por futuras atualizações\n")
