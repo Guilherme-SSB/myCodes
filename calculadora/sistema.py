@@ -3,9 +3,11 @@ from os import system
 from time import sleep
 import numeros
 import polinomios
+import desenvolvedor
 
 classeDosNumeros = numeros.Numeros()
 classeDosPolinomios = polinomios.Polinomios()
+classeDoDesenvolvedor = desenvolvedor.Desenvolvedor()
 class Sistema(object):
 
     def executar(self):
@@ -63,7 +65,8 @@ class Sistema(object):
             Sistema.executar(self)
 
         elif opcao == 4:
-            pass
+            while (opcao == 4):
+                classeDoDesenvolvedor.informacoesDev()
             # Chamar classe dev
 
         else:

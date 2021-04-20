@@ -1,0 +1,17 @@
+class Desenvolvedor(object):
+    def informacoesDev(self):
+        print()
+        print("         > Conheca mais sobre o desenvolvidor <         ")
+        print()
+        print("*======================================================*")
+        print("|      Esse programa está sendo desenvolvido por:      |")
+        print("|                                                      |")
+        print("|          Guilherme Samuel de Souza Barbosa           |")
+        print("|                     2019 - 2020                      |")
+        print("|    Aluno do 2º ano de Engenharia de Computação no    |")
+        print("|   Instituto Mauá de Tecnologia - São Caetano do Sul  |")
+        print("*======================================================*")
+        print('\n')
+        print("Aperte Enter para voltar ao menu de opções")
+        input()
+        #Sistema.executar()
