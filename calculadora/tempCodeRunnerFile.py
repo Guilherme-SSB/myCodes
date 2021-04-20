@@ -1,0 +1,3 @@
+import sistema
+
+sistema = Sistema()
